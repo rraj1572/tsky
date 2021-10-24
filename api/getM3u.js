@@ -14,9 +14,7 @@ module.exports = async (req, res) => {
       let m3uString = await generateM3u(uData);
       res.send(m3uString);
     }
-    else
-     let m3uString = await generateM3u(uData);
-      res.send(m3uString);
+    
 }
 
 const getAllChans = async () => {
